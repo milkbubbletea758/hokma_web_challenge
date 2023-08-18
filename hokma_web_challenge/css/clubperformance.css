@@ -1,0 +1,125 @@
+@import "./variale.css";
+
+body,html{
+    height: 100%;
+}
+.title{
+    width:1210px;
+    height:35px;
+    display: flex;
+    flex-direction: row;
+}
+.title__greenbox1{
+    width:60px;
+    height: 35px;
+    background-color:var(--green);
+}
+.title__club{
+    width:140px;
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.club{
+    font-size:35px;
+    font-family:'ewha';
+}
+.title__greenbox2{
+    width: 1000px;
+    height: 35px;
+    background-color:var(--green);
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.subtitle{
+    padding-left: 10px;
+    font-size:17px;
+    color:white;
+    font-family:'ewha';
+}
+.tab{
+    width:850px;
+    height: 35px;
+    margin-top:35px;
+    margin-left: 170px;
+
+}
+.tab-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border-top:1px solid var(--gray);
+    border-bottom:1px solid var(--gray);
+}
+.tab-ul li{
+    border-right: 1px solid var(--gray);
+    font-family:'ewha';
+    font-size:20px;
+    text-align: center;
+    padding:7px;
+}
+.tab-ul-first{
+    border-left:1px solid var(--gray);
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    padding-top:5px;
+}
+.content__title{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top:10px;
+}
+.title_name{
+    color:black;
+    font-family:'ewha';
+    font-size: 25px;
+}
+.title_subname{
+    width: 1180px;
+    color:var(--green);
+    font-family:'ewha';
+    font-size:20px;
+    margin-top: 25px;
+    padding:0px 5px 5px 0px;
+    border-bottom: 1px solid var(--green);
+   
+}
+table,td,th{
+    border : 1px solid var(--gray);
+    border-collapse : collapse;
+}
+td,th{
+    padding:8px;
+}
+.clubcontet-carrier{
+    margin-top:10px;
+    margin-left:15px;
+    margin-bottom: 50px;
+    width:1180px;
+    height: 600px;
+    overflow:auto;
+    font-size:11px;
+    border-bottom: 1px solid var(--gray);
+    border-top: 1px solid var(--gray);
+}
+.clubcontent__title{
+    background-color: var(--lightgreen);
+}
+.clubcontent__title{
+    font-size:12px;
+}
+.images{
+    width: 50px;
+    text-align: center;
+}
+.images__instar,.images__youtube{
+    height: 17px;
+    width: 17px;
+    border-radius: 10%;
+}
