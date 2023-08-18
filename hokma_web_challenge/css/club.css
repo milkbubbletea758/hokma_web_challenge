@@ -40,3 +40,53 @@ body,html{
     color:white;
     font-family:'ewha';
 }
+.content{
+    display:flex;
+    flex-direction: column;
+    padding-top:5px;
+}
+.content__title{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top:10px;
+}
+.title_name{
+    color:black;
+    font-family:'ewha';
+    font-size: 20px;
+}
+.performance{
+    color:var(--green);
+    font-family:'ewha';
+    font-size:17px;
+    padding-top:5px;
+    padding-left:5px
+}
+table,td,th{
+    border : 1px solid rgb(116, 112, 112);
+    border-collapse : collapse;
+}
+td,th{
+    padding:8px;
+}
+.clubcontent{
+    width:1180px;
+    margin-top:10px;
+    margin-left:15px;
+    overflow:auto;
+    font-size:10px;
+}
+.clubcontent__title{
+    background-color: rgb(198, 213, 198);
+}
+.images{
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.images__instar,.images__youtube{
+    height: 17px;
+    width: 17px;
+    border-radius: 10%;
+}
