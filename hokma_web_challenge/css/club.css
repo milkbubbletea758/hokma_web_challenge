@@ -86,7 +86,7 @@ td,th{
     justify-content: center;
 }
 .images__instar,.images__youtube{
-    height: 17px;
-    width: 17px;
+    height: 20px;
+    width: 20px;
     border-radius: 10%;
 }
