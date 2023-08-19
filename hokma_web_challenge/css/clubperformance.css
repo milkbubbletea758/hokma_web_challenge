@@ -41,25 +41,32 @@ body,html{
     font-family:'ewha';
 }
 .tab{
-    width:850px;
-    height: 35px;
-    margin-top:35px;
+    width:848px;
+    height:60px;
+    margin-top:40px;
     margin-left: 170px;
-
+    box-shadow: 5px var(--gray);
 }
 .tab-ul{
     list-style: none;
     display: flex;
     flex-direction: row;
+    background-color: var(--lightgreen);
     border-top:1px solid var(--gray);
     border-bottom:1px solid var(--gray);
+    padding:0;
+    
 }
 .tab-ul li{
     border-right: 1px solid var(--gray);
     font-family:'ewha';
     font-size:20px;
     text-align: center;
-    padding:7px;
+    padding:10px;
+}
+.tab-ul li a{
+    color:inherit;
+    text-decoration-line: none;
 }
 .tab-ul-first{
     border-left:1px solid var(--gray);
@@ -73,7 +80,7 @@ body,html{
     display:flex;
     flex-direction: column;
     padding-left: 10px;
-    padding-top:10px;
+    padding-top:5px;
 }
 .title_name{
     color:black;
@@ -105,7 +112,6 @@ td,th{
     height: 600px;
     overflow:auto;
     font-size:11px;
-    border-bottom: 1px solid var(--gray);
     border-top: 1px solid var(--gray);
 }
 .clubcontent__title{
