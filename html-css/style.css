@@ -1,0 +1,53 @@
+*{margin:0px; padding:0px;}
+ul{list-style:none;}
+a{text-decoration:none;}
+
+header{
+    width:1600px;
+    height: 97px;
+    background-color:#00462A;
+    position: relative;
+}
+
+#logo{
+    position:absolute;
+    top: 22px;
+    left: 22px;
+}
+
+nav{
+    position: absolute;
+    bottom: 35px;
+    left: 300px;
+    font-size: 24px;
+    font-style: bold;
+}
+
+nav li{
+    display: inline;
+    margin-left: 200px;
+}
+
+nav a{
+    color: white;
+}
+
+#content li{
+    display: inline;
+    margin-left: 23px;
+}
+
+table{ margin-left:20px; border-collapse : collapse; }  /*이중선 제거*/
+th{
+    border: 1px solid #000;
+}
+td{
+    height:100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+      
+    vertical-align: top;	/* 위 */
+    vertical-align: bottom;   /* 아래 */
+    vertical-align: middle;   /* 가운데 */
+}

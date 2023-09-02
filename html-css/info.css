@@ -1,0 +1,88 @@
+@import "./variale.css";
+
+body,html{
+    height: 100%;
+    font-family:'ewha';
+}
+.title{
+    width:5000px;
+    height:35px;
+    display: flex;
+    flex-direction: row;
+}
+.title__greenbox1{
+    width:60px;
+    height: 35px;
+    background-color: #186A3B;
+    font-family:'ewha';
+}
+.title__history{
+    width:140px;
+    height: 35px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.history{
+    font-size:35px;
+    font-family:'ewha';
+    font-weight: bold;
+  
+}
+.title__greenbox2{
+    width: 1000px;
+    height: 35px;
+    background-color: #186A3B;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    font-family:'ewha';
+}
+.subtitle{
+    padding-left: 10px;
+    font-size:17px;
+    color:white;
+    
+ 
+}
+.firstone{
+    background-color: #186A3B;
+    font-weight:bold;
+}
+
+table {
+    border: 1px solid #bcbcbc;
+  }
+  table {
+    width: 90%;
+    height: 200px;
+  }
+  
+table{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+@font-face {
+    font-family: 'ewha';
+    src: url("./ewha.ttf") format("truetype");
+}
+
+
+
+.history {
+    font-size: 35px;
+    font-family: 'ewha';
+    font-weight: bold;
+}
+
+.subtitle {
+    padding-left: 10px;
+    font-size: 17px;
+    color: white;
+    font-family: 'ewha';
+}
