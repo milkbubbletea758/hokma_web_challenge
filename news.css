@@ -4,6 +4,7 @@
 }
 
 
+
 body,html{
     height: 100%;
     font-family:'ewha';
@@ -83,7 +84,7 @@ h3{
 .firstnews {
     display: flex;
     align-items: center;
-    gap: 20px; 
+    gap: 20px; /* 이미지와 내용 사이의 간격 조정 */
 }
 
 .firstnews img {
@@ -98,12 +99,12 @@ h3{
 
 .firstnewstitle {
     margin: 0;
-    font-size: 1.5em; 
+    font-size: 1.5em; /* 제목의 크기 조정 */
 }
 
 .firstnewsinfo {
     margin: 0;
-    font-size: 1em; 
+    font-size: 1em; /* 내용의 크기 조정 */
 }
 
 
@@ -112,7 +113,7 @@ h3{
 .secnews {
     display: flex;
     align-items: center;
-    gap: 20px; 
+    gap: 20px; /* Add spacing between image and content */
 }
 
 .secnews img {
@@ -126,7 +127,7 @@ h3{
 .secnews {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 20px; /* 이미지와 내용 사이의 간격 조정 */
 }
 
 .secnews img {
@@ -141,12 +142,12 @@ h3{
 
 .secnewstitle {
     margin: 0;
-    font-size: 1.5em; 
+    font-size: 1.5em; /* 제목의 크기 조정 */
 }
 
 .secnewsinfo {
     margin: 0;
-    font-size: 1em; 
+    font-size: 1em; /* 내용의 크기 조정 */
 }
 
 
@@ -162,7 +163,7 @@ h3{
 .thirdnews {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 20px; /* Add spacing between image and content */
 }
 
 .thirdnews img {
@@ -176,7 +177,7 @@ h3{
 .thirdnews {
     display: flex;
     align-items: center;
-    gap: 20px; 
+    gap: 20px; /* 이미지와 내용 사이의 간격 조정 */
 }
 
 .thirdnews img {
@@ -191,12 +192,19 @@ h3{
 
 .thirdnewstitle {
     margin: 0;
-    font-size: 1.5em; 
+    font-size: 1.5em; /* 제목의 크기 조정 */
 }
 
 .thidnewsinfo {
     margin: 0;
-    font-size: 1em; 
+    font-size: 1em; /* 내용의 크기 조정 */
+}
+
+
+
+
+
+
 
 
 
@@ -208,16 +216,12 @@ a {
     gap: 10px; /
 }
 
-
+/* 이미지와 설명이 같은 줄에 위치하도록 수정합니다 */
 .firstnewsinfo,
 .secnewsinfo,
 .thirdnewsinfo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90px; 
+    height: 90px; /* 이미지의 높이와 맞춰주세요 */
 }
-
-  .desc {
-    padding: 1.5rem;
-  }
