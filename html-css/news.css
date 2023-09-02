@@ -399,3 +399,52 @@ h3{
  
 
  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a {
+
+    color: black;
+
+    text-decoration: none;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px; /
+
+}
+
+ 
+
+/* 이미지와 설명이 같은 줄에 위치하도록 수정합니다 */
+
+.firstnewsinfo,
+
+.secnewsinfo,
+
+.thirdnewsinfo {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 90px; /* 이미지의 높이와 맞춰주세요 */
+
+}
+ 
